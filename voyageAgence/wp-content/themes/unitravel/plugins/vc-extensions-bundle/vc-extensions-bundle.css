@@ -1,0 +1,116 @@
+/* WPBakery Page Builder Extension Bundle
+----------------------------------------------------------------- */
+
+/* Tooltip */
+.tooltipster-base.tooltipster-light {
+	border: none;
+	border-radius: 0;
+	box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+.tooltipster-base.tooltipster-light .tooltipster-content {
+	padding: 0;
+	border: none;
+	font-family: Lato,sans-serif;
+	font-size: 0.857rem;
+	font-weight: 400;
+	line-height: 1.429rem;
+}
+.tooltipster-base .tooltipster-content p {
+	margin: 0;
+}
+.tooltipster-base.tooltipster-light .tooltipster-arrow span {
+	border-top-color: #ffffff !important;
+}
+.cq-hotspots .hotspot-item a.cq-tooltip span {
+	width: 10px;
+	height: 10px;
+	margin: -5px 0 0 -5px;
+}
+.cq-draggable-container .cq-draggable-stripe,
+.cq-draggable-container .cq-draggable-slider {
+	height: 5px;
+}
+.cq-draggable-container .cq-draggable-slider {
+	z-index: 7000 !important;
+}
+.cq-draggable-container .cq-highlight span.fa {
+	font-size: 12px;
+}
+.cq-draggable-container .cq-highlight span.fa:before {
+	content: '';
+	width: 12px;
+	height: 12px;
+	background-color: #fcb040;
+	display: inline-block;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	border: 4px solid rgba(252, 176, 64, 0.5);
+	background-clip: content-box;
+}
+.cq-draggable-container .cq-highlight-container.icon .cq-highlight {
+	height: 35px;
+}
+.cq-draggable-container .cq-draggable-handle .cq-infobox:after {
+	bottom: -9px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 9px 11px 0 11px;
+	border-color: #ffffff transparent transparent transparent;
+	left: 143px;
+}
+.cq-draggable-container .cq-draggable-handle .cq-infobox:before {
+	display: none;
+}
+.cq-draggable-container .cq-draggable-handle .cq-infobox {
+	border: 0;
+	-webkit-border-radius: 0;
+	-ms-border-radius: 0;
+	border-radius: 0;
+	width: 308px;
+	height: 225px;
+	margin-top: -255px;
+	margin-left: -154px;
+}
+.cq-draggable-container .cq-carouselcontent {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.429rem;
+	text-align: center;
+	height: 255px;
+	overflow: hidden;
+}
+.cq-draggable-container .cq-innerbox {
+	padding: 0 0 2.5rem;
+	height: 225px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cq-draggable-container .cq-highlight {
+	margin-top: -10px;
+	background-color: transparent;
+}
+div.cq-draggable-container {
+}
+.cq-draggable-container .cq-highlight-container .cq-highlight-label {
+	font-size: 1.357rem;
+	font-weight: 700;
+	line-height: 1.357rem;
+	text-transform: uppercase;
+}
+.tooltipster-content .title {
+	font-size: 1.357rem;
+	font-weight: 700;
+	line-height: 2.214rem;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.35rem 0.5rem 0.1rem;
+}
+.tooltipster-content .info {
+	text-align: center;
+	padding: 1rem 1rem 1.6rem;
+}

@@ -1,0 +1,69 @@
+/* Colors */
+.room-single-content .room-destination,
+.room-plugin .room-plugin-content .room-title-read-more:hover,
+.room-plugin-content .room-title a:hover,
+.room-rating {
+    color: #fcb040;
+}
+.room-plugin-form-content {
+    background-color: #ffffff;
+}
+.room-plugin-form-header,
+.room-last-minute {
+    background: linear-gradient(to right, #45c4cc, #2bb9e1);
+}
+.room-plugin-form-content .ui-slider-handle::before,
+.room-plugin .room-plugin-content .room-title-read-more {
+    color: #798da9;
+}
+.room-plugin-content .room-title a {
+    color: #4b5664;
+}
+.room-people:before {
+    background-color: #c0cacb;
+}
+.room-plugin-form-content .ui-slider-horizontal .ui-slider-handle,
+.room-plugin-form-content .ui-slider .ui-slider-range,
+.room-container .swiper-scrollbar-drag {
+    background: #c3dc01;
+}
+.room-plugin-form-content .ui-slider-horizontal {
+    background: #dbdfe4;
+}
+.room-container.swiper-container-horizontal > .swiper-scrollbar {
+    background-color: #f5f7f7
+}
+.room-featured:after{
+    background: linear-gradient(to top, rgba(34, 44, 56, 0.8) 0%, rgba(34, 44, 56, 0) 50%, rgba(34, 44, 56, 0) 50%, rgba(34, 44, 56, 0) 100%);
+}
+
+.room-plugin-form-header .room-plugin-form-search input[type="text"] {
+    color: #ffffff;
+}
+.room-plugin-form-header .room-plugin-form-search input[type="text"]::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.5);
+}
+.room-plugin-form-header .room-plugin-form-search input[type="text"]:hover,
+.room-plugin-form-header .room-plugin-form-search input[type="text"]:focus {
+    color: #ffffff;
+}
+.room-plugin-form-header .room-plugin-form-search button:hover {
+    color: rgba(255,255,255,0.5);
+}
+.room-plugin-form-header .room-plugin-form-search {
+    border-color:  rgba(255,255,255,0.3);
+}
+.room-plugin-form-shortcode label{
+    color: #4c5e78;
+}
+.room-single .room-list li:before {
+    color: #4c5e78;
+}
+.room-single .room-button-read-more {
+    color: #ffffff;
+    background: linear-gradient(to right,	#bbd300 0%,#bbd300 50%,#c8dd16 50%,#bbd300 100%) no-repeat scroll right bottom / 210% 100% #bbd300;
+}
+.room-single .room-button-read-more:hover {
+    color: #ffffff;
+    background-position: left bottom;
+}

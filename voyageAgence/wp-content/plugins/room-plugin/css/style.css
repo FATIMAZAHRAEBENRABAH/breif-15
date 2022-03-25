@@ -1,0 +1,445 @@
+/* General style */
+.room-columns-container {
+    font-family: "Roboto Slab",serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.715em;
+    letter-spacing: 0;
+}
+
+/* Grid */
+.room-columns-container {
+    margin: 0 -15px;
+}
+.room-columns-container > * {
+    vertical-align: top;
+    padding: 10px 15px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.room-columns-container .column-1-2 {
+    width: 50%;
+}
+.room-columns-container .column-1-3 {
+    width: 33.33%;
+}
+.room-columns-container .column-1-4 {
+    width: 25%;
+}
+
+/* Featured image */
+.room-featured {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.room-featured:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+.room-featured img {
+    width: 100%;
+}
+.room-featured-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: 2;
+}
+
+/* Last minute */
+.room-last-minute {
+    position: absolute;
+    top: 25px;
+    right: -40px;
+    text-align: center;
+    transform: rotate(45deg);
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 1.4em;
+    padding: 0.75em 0 0.4em;
+    z-index: 1;
+    width: 160px;
+}
+.room-last-minute-inside {
+    display: inline-block;
+    padding-left: 1em;
+    position: relative;
+}
+.room-last-minute-inside:before {
+    position: absolute;
+    left: -0.45em;
+    top: 0.2em;
+    font-size: 12px;
+}
+
+/* Rating*/
+.room-rating {
+    left: 47px;
+    bottom: 25px;
+    font-size: 12px;
+}
+.room-rating .room-rating-star:before {
+    margin: 0 0.17em;
+}
+
+/* Price */
+.room-price {
+    font-weight: 700;
+    line-height: 31px;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 48px;
+}
+.room-present-price {
+    font-size: 48px;
+}
+.room-old-price {
+    opacity: 0.8;
+    letter-spacing: 0;
+    text-decoration: line-through;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.room-present-currency,
+.room-price-period {
+    font-size: 19px;
+}
+
+/* Room content */
+.room-plugin-content {
+    padding: 36px 38px 24px 44px;
+}
+.room-style-extended .room-plugin-content {
+    padding: 20px 38px 54px;
+    text-align: center;
+}
+.room-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.room-destination {
+    font-size: 13px;
+    margin-top: 0.7em;
+    margin-bottom: 1.2em;
+}
+.room-style-extended .room-destination {
+    margin-top: 0.4em;
+    margin-bottom: 2.4em;
+}
+.room-info-part {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+.room-info-part > * {
+    display: inline-block;
+}
+.room-info .room-calendar:before{
+    font-size: 14px;
+    vertical-align: top;
+    margin: 4px 9px 0 1px;
+}
+.room-info .room-calendar{
+    font-size: 13px;
+}
+.room-info-label {
+    margin-right: 0.5em;
+    min-width: 7em;
+    font-size: 13px;
+}
+.room-single .room-info-part + .room-info-part {
+    text-align: right;
+}
+.room-people{
+    font-size: 13px;
+}
+.room-people .room-people-icon:before {
+    margin: 0;
+}
+.room-calendar + .room-people {
+    position: relative;
+    padding-left: 1.8em;
+}
+.room-calendar + .room-people:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    top: 0.45em;
+    left: 0.85em;
+    height: 0.95em;
+}
+.room-title-read-more {
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    position: relative;
+    padding-right: 2.3em;
+}
+.room-plugin .room-plugin-content .room-title-read-more:before {
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+    top: 0.45em;
+    transition: none;
+}
+
+/*  Single template */
+.room-single-title {
+    margin: 1.1em 0 0.2em;
+}
+.room-single-info {
+    margin: 1em 0 0;
+}
+.room-single-content .room-destination {
+    font-size: 0.857em;
+    font-weight: 700;
+}
+.room-single-content .room-info-part {
+    vertical-align: top;
+}
+
+/* List */
+.room-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+.room-single .room-list {
+    margin-bottom: 2.4em;
+}
+.room-list li {
+    position: relative;
+    padding-left: 1.8em;
+    font-size: 1.071em;
+}
+.room-list li:before {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    font-size: 12px;
+}
+.room-post + .room-post {
+    margin-top: 7.15rem;
+    padding-top: 7.15rem;
+    border-top: 1px solid #eee;
+}
+
+
+/* VC settings */
+.vc_element-icon.icon-room-plugin {
+    background: url(../images/icon.png) no-repeat 0 0 !important;
+}
+
+/*  Swiper styles*/
+.room-container.swiper-container {
+    padding-bottom: 4.65em;
+    padding-top: 0.6rem;
+}
+.room-container .swiper-scrollbar-drag {
+    border-radius: 0;
+}
+.room-container.swiper-container-horizontal > .swiper-scrollbar {
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    z-index: 50;
+    height: 12px;
+    width: 100%;
+    border-radius: 0;
+}
+
+/* Grid */
+.room-plugin-column-row { margin: 0 -30px 0 0; }
+.room-plugin-column, .room-plugin-columns { display: inline-block; padding: 0 30px 0 0; box-sizing: border-box; vertical-align: top;}
+
+.room-plugin-one    { width: 8.33333333%;   }
+.room-plugin-two    { width:16.66666667%;   }
+.room-plugin-three  { width:25%;            }
+.room-plugin-four   { width:33.33333333%;   }
+.room-plugin-five   { width:41.66666667%;   }
+.room-plugin-six    { width: 50%;           }
+.room-plugin-seven  { width:58.33333333%;   }
+.room-plugin-eight  { width:66.66666667%;   }
+.room-plugin-nine   { width:75%;            }
+.room-plugin-ten    { width: 83.33333333%;  }
+.room-plugin-eleven { width: 91.66666667%;  }
+.room-plugin-twelve { width: 100%;          }
+
+
+/* Room search form */
+.room-plugin-form-shortcode {
+}
+.room-plugin-form-shortcode .room-plugin-form-title {
+    margin: 1.35em 0 1.4em;
+}
+.room-plugin-form-header .room-plugin-form-search {
+    margin: 2.3em 0 1.8em;
+    border-left: 1px solid;
+    position: relative;
+    padding-left: 2.7em;
+}
+.room-plugin-form-header .room-plugin-form-search input[type="text"] {
+    background: transparent;
+    border: 0;
+    height: 3em;
+}
+.room-plugin-form-header .room-plugin-form-search input[type="text"]:hover,
+.room-plugin-form-header .room-plugin-form-search input[type="text"]:focus {
+    background: transparent;
+}
+.room-plugin-form-header .room-plugin-form-search button {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    position: absolute;
+    top: 0.4em;
+    left: 1.7em;
+}
+.room-plugin-form-header .room-plugin-form-search button:focus,
+.room-plugin-form-header .room-plugin-form-search button:hover {
+    background: transparent;
+}
+.room-plugin-form-header .room-plugin-form-search button:before {
+    transition: none;
+}
+.room-plugin-form-shortcode label {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    letter-spacing: 0;
+}
+.room-plugin-form-content {
+    padding: 3.15em 0 3.5em;
+}
+.room-plugin-form-content input {
+    width: 100%;
+}
+.room-button-read-more,
+.room-plugin-form-content button {
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 37px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 15px 45px 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.room-button-read-more {
+    margin-top: 0;
+    margin-right: 0.85rem;
+}
+.room-plugin-datepicker {
+    position: relative;
+}
+.room-plugin-datepicker input[type="text"] {
+    background: url(../images/calendar.png) no-repeat 91% 47% #f3f5f7;
+}
+
+/* JQuery UI Slider*/
+.room-plugin-form-content .ui-slider-handle::before{
+    content: attr(data-content);
+    position: absolute;
+    top: -2.3em;
+    word-wrap: normal;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.room-plugin-form-content .ui-slider-horizontal {
+    height: 3px;
+    border: 0;
+    border-radius: 0;
+}
+.room-plugin-form-content .ui-slider-horizontal .ui-slider-handle {
+    border-radius: 0;
+    border: 0;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    top: -3px;
+}
+#room-plugin-price {
+    margin-top: 4.3em;
+}
+.room-single-review_count {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
+    opacity: 0.5;
+    color: #4b5664;
+}
+div.wp-review-user-rating .review-result-wrapper span i {
+    opacity: 0.5;
+}
+.review-star .review-result-wrapper i,
+.review-total-star  .review-result-wrapper i {
+    font-size: 13px;
+}
+.review-star [class^="mts-icon-"]:before,
+.review-total-star  [class^="mts-icon-"]:before,
+.review-star [class*=" mts-icon-"]:before,
+.review-total-star  [class*=" mts-icon-"]:before {
+    width: 13px;
+}
+.room-info {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.room-info-item + .room-info-item {
+    margin-left: 25px;
+}
+.room-info-item .room-icon {
+    font-weight: 400;
+    font-size: 11px;
+    margin-right: 8px;
+}
+.room-info-item {
+    display: inline-block;
+}
+.room-info-item-label {
+    margin-left: 1px;
+}
+.room-content {
+    line-height: 22px;
+}
+.room-content p {
+    margin-bottom: 19px;
+}
+.room-plugin-search-result .room-single {
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+Version 1.2.4
+	Added:
+		- WP 5.8.1 compatibility
+		- PHP 8 compatibility
+		- ThemeREX Socials plugin
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+	
+	Removed:
+		- Smash Balloon Instagram Feed plugin
+
+
+Version 1.2.3
+    Added:
+        - WP 5.5.1 compatibility
+        - PHP 7.4 compatibility
+
+    Fixed:
+        - Theme styles
+        - Update plugins to their latest versions
+
+    Changed:
+        - Move WooCommerce 'Products per row' and 'Rows per page' settings to 'WooCommerce' Customizer section
+        - Update demo data
+
+
+Version 1.2.2
+    Added:
+        - TRX Updater plugin
+        - elegro Crypto Payment plugin
+
+    Changed:
+        - Replace default contact forms with Contact Form 7
+        - Update demo data
+
+    Fixed:
+        - Improve compatibility with WP 5.3.2
+        - Update plugins to their latest versions
+
+Version 1.2.1
+    Added:
+        - WP GDPR Compliance plugin
+        - Alert to Demo data installation
+        - Privacy Policy, Service Plus pages
+    Changed:
+        - Update default contact forms to make them GDPR-compliant
+        - Update demo data
+    Fixed:
+        - Compatibility with WP 5.0
+        - Update plugins to their latest versions
+        - Improve theme styles
+        - Update TRX Addons plugin
+        - Scripts libraries are updated
+    Removed:
+        - Support page, Video Tutorials page
+
+Version 1.2
+    Add WordPress 4.9.4 compatibility.
+    All plugin updated.
+    Documentations updated.
+    Demo data updated.
+
+Version 1.1
+    Compatibility with PHP7.1
+    Updated Revolution Slider to its latest version
+    Updated WPBakery Page Builder to its latest version
+    Updated Essential Grid to its latest version
+    Updated Booked to its latest version
+    Fixed Essential Grid bugs
+    Fixed shortcode WPBakery Page Builder in PHP7.1
+    Fixed shortcodes style
+	Fixed Import demo data
+	Fixed TRX ADDONS bugs
+    Added new CSS styles
+
+Version 1.0
+    Release
+
+
+

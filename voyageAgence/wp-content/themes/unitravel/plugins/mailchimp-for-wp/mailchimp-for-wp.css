@@ -1,0 +1,86 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+.mc4wp-form {
+	position:relative;
+}
+.mc4wp-form .mc4wp-form-fields input[type="email"] {
+	padding: 1em;
+	width: 100%;
+	vertical-align:top;
+}
+.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+	position: absolute;
+	z-index:1;
+	right: 0;
+	top: 0;
+	max-width:9.5em;
+	padding: 1.6em 2.1em;
+	vertical-align:top;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.mc4wp-form .mc4wp-form-fields input[type="email"] {
+	width: calc(60% - 2px);
+	height: calc(3.35em - 2px);
+	position: relative;
+	top: 2px;
+}
+.mc4wp-form .mc4wp-form-fields input[type="email"],
+.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+	display: inline-block;
+}
+
+.mc4wp-form .terms_agree_checkbox input[type="checkbox"]{
+	display: inline-block;
+	margin-right: 8px;
+	position: relative;
+	top: 1px;
+}
+.ua_safari .mc4wp-form .terms_agree_checkbox input[type="checkbox"]{
+	top: -1px;
+}
+
+.mc4wp-form .terms_agree_checkbox_wrap {
+	margin-top: 8px;
+}
+
+.mc4wp-form button {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 1.357em;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 1.2rem 1rem 0.9rem;
+	display: inline-block;
+	width: 40%;
+}
+.mc4wp-form .mc4wp-alert {
+	margin: 2em 0;
+	padding: 1em;
+}
+.mc4wp-form .inputs_area {
+	width: 100%;
+	-webkit-border-radius: 1.6em;
+	-ms-border-radius: 1.6em;
+	border-radius: 1.6em;
+	margin-top: 1.4rem;
+	padding-bottom: 1px;
+}
+
+.mc4wp-form input[type="checkbox"]{
+	display: inline-block;
+	margin-right: 5px;
+	position: relative;
+}
+
+.ua_chrome .mc4wp-form input[type="checkbox"]{
+	top: 2px;
+}

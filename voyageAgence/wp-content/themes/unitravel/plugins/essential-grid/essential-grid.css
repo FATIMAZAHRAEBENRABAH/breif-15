@@ -1,0 +1,25 @@
+/* Essential Grid styles
+----------------------------------------------------------------- */
+
+.flat-light .esg-filters .esg-sortbutton-order,
+.flat-light .esg-filters .esg-cartbutton-order {
+	line-height:36px;
+	margin:0;
+}
+.flat-light .esg-filters .esg-sortbutton {
+	padding-right: 0;
+}
+.esg-grid .mainul li.eg-unitravel-wrapper {
+	background: transparent!important;
+}
+.esg-entry-cover .esg-overlay {
+	height: calc(100% + 2px) !important;
+	top: -1px!important;
+}
+.minimal-light .esg-filters {
+	margin-bottom: 4rem!important;
+	margin-top: 4rem!important;
+}
+.esgbox-share__button:link {
+	color: #fff !important;
+}
